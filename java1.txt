@@ -23,3 +23,28 @@ public class AddTwoNumbers {
     }
 }
 
+multiplication program
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // Create a Scanner object to take input
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user to enter two numbers
+        System.out.print("Enter first number: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.print("Enter second number: ");
+        double num2 = scanner.nextDouble();
+
+        // Multiply the numbers
+        double product = num1 * num2;
+
+        // Display the result
+        System.out.println("The product is: " + product);
+
+        // Close the scanner
+        scanner.close();
+    }
+}
