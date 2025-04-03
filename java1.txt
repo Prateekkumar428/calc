@@ -24,12 +24,19 @@ public class AddTwoNumbers {
 }
 
 
-subtract
+
+
 
 
 import java.util.Scanner;
 
 public class SubtractTwoNumbers {
+=======
+multiplication program
+import java.util.Scanner;
+
+public class Main {
+>>>>>>> 06db7f778f23d81d797db25cc13879083e1d23bf
     public static void main(String[] args) {
         // Create a Scanner object to take input
         Scanner scanner = new Scanner(System.in);
@@ -40,15 +47,23 @@ public class SubtractTwoNumbers {
 
         System.out.print("Enter second number: ");
         double num2 = scanner.nextDouble();
-
         // Subtract the numbers
         double difference = num1 - num2;
 
         // Display the result
-        System.out.println("The difference is: " + difference);
+        System.out.println("The difference is: " + difference)
+        // Multiply the numbers
+        double product = num1 * num2;
+
+        // Display the result
+        System.out.println("The product is: " + product);
+>>>>>>> 06db7f778f23d81d797db25cc13879083e1d23bf
 
         // Close the scanner
         scanner.close();
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 06db7f778f23d81d797db25cc13879083e1d23bf
